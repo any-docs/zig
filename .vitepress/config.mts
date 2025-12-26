@@ -6,6 +6,7 @@ export default ({mode}) => {
   const env = loadEnv(mode, process.cwd())
 
   return defineConfig({
+    base: "/",
     srcDir: "content",
 
     title: "AnyDocs Zig",
@@ -21,7 +22,7 @@ export default ({mode}) => {
         provider: 'local'
       },
       editLink: {
-        pattern: 'https://github.com/any-docs/css/edit/main/content/:path',
+        pattern: 'https://github.com/any-docs/zig/edit/main/content/:path',
         text: 'Edit this page on GitHub'
       },
       nav: [
