@@ -5,7 +5,7 @@ source: zig
 
 # {{ $frontmatter.title }}
 
-There is no operator overloading. When you see an operator in Zig, you know that it is doing something from this table, and nothing else.
+There is no operator overloading. When you see an operator in Zig, you know that it is doing something from below, and nothing else.
 
 ## Addition
 ::: code-group
